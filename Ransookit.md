@@ -8,7 +8,7 @@
 
 `Intended solution`
 
-Đầu tiên chúng ta import machine và dùng kvrt quét để tìm rootkit và cô lập chúng
+Đầu tiên chúng ta import machine và dùng kvrt quét để tìm rootkit và xóa
 
 ![image](https://github.com/hoanga2dtk68/CTFzone_quals_2023/assets/110059218/0ac95fd4-4576-4dbb-87ca-8f95e08a3f88)
 
