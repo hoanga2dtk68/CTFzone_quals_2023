@@ -10,6 +10,9 @@
 
 Đầu tiên chúng ta import machine và dùng kvrt quét để tìm rootkit và cô lập chúng
 
+![image](https://github.com/hoanga2dtk68/CTFzone_quals_2023/assets/110059218/0ac95fd4-4576-4dbb-87ca-8f95e08a3f88)
+
+
 Sau khi quét tiếp thì nhận thấy có một file ransomware mã hóa file và thêm vào đuôi file * -> *.config xem qua thì có thể thấy .NET vì thế dùng dnspy để dịch ngược chương trình để decrypt
 
 ![image](https://github.com/hoanga2dtk68/CTFzone_quals_2023/assets/110059218/f624d5b2-10df-456b-9f1b-d700ba35ccf5)
