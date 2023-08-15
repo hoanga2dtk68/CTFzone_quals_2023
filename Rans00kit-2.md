@@ -13,13 +13,13 @@
 
 ![image](https://github.com/hoanga2dtk68/CTFzone_quals_2023/assets/110059218/22286cb1-a012-4d24-83b8-2915f1c5111c)
 
-Ở đây sau khi kiểm tra thì có 2 file trong đó agony.sys chính là rootkit và VGAuthService.exe là chương trình để chạy rootkit, khi đó UpdateService.exe được lập lịch để chạy ẩn các file, tiến trình một cách tự động
+khi đó UpdateService.exe được lập lịch để thực thi điều gì đó mà khiến chương trình báo not verified
 
 Sau đó mình có thể dùng upx để unpack file exe trên để xem nó ẩn những key, file và các tiến trình nào
 
 ![image](https://github.com/hoanga2dtk68/CTFzone_quals_2023/assets/110059218/c2d7d396-f437-4706-940c-128be0e160cb)
 
-Sau khi unpack đã thấy được những file, key, process bị ẩn đi và đi kiểm tra những file đó
+Sau khi unpack đã thấy 2 file trong đó agony.sys chính là rootkit và VGAuthService.exe là chương trình để chạy rootkit, và sử dụng 2 file này để ẩn những key và tiến trình như thế nào
 
 Và sau khi kiểm tra thì file AliasStore là một file ransomware mã hóa file từ * -> *.config và sau khi đọc dạng raw có thì có thấy .NET hoặc có thể dùng detect It easy để kiểm tra
 
